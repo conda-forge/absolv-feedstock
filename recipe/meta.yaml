@@ -22,6 +22,8 @@ outputs:
       host:
         - python >=3.10
         - pip
+        - setuptools
+        - setuptools_scm >=8
       run:
         - python >=3.10
         - pydantic >=2
